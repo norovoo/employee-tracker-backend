@@ -1,0 +1,142 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: space-between; /* Space between logo and profile section */
+  align-items: center; /* Vertically center the items */
+  background-color: #6200EE; /* Adjust background color to your preference */
+  padding: 15px 20px; /* Top and bottom, left and right padding */
+  color: white; /* Text color for the top banner */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Center logo vertically */
+  text-align: center; /* Center logo horizontally */
+}
+
+.profile-section {
+  display: flex; /* Flex container for profile section */
+  align-items: center; /* Vertically align profile picture and text */
+  position: relative; /* Position relative for dropdown */
+  margin-left: auto; /* Pushes profile section to the right */
+}
+
+.profile-picture {
+  width: 20px; /* Profile picture width */
+  height: 20px; /* Profile picture height */
+  border-radius: 50%; /* Make it circular */
+  margin-right: 10px; /* Space between picture and username */
+}
+
+.username {
+  font-size: 16px; /* Font size for username */
+  font-weight: bold; /* Bold text */
+  color: white; /* Text color */
+}
+
+
+.dropdown-menu {
+  position: absolute; /* Position dropdown absolutely */
+  top: 50px; /* Adjust based on your layout */
+  right: 0; /* Align to the right */
+  background-color: white; /* Background color */
+  border: 1px solid #ccc; /* Border style */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Shadow for dropdown */
+  z-index: 1000; /* Ensure it appears on top */
+  padding: 10px; /* Add some padding */
+}
+
+.dropdown-menu ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
+
+.dropdown-menu li {
+  margin: 5px 0; /* Space between items */
+}
+
+.dropdown-menu a,
+.dropdown-menu button {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Text color */
+  padding: 5px 10px; /* Padding inside links/buttons */
+  display: block; /* Button takes full width */
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu button:hover {
+  background-color: #f0f0f0; /* Change background on hover */
+}
+
+/* Add these styles to your CSS file */
+
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.order-card {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: calc(30% - 20px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.order-card:hover {
+  transform: scale(1.02);
+}
+
+.order-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order-detail {
+  margin: 5px 0;
+}
+
+.order-detail span {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Dashboard.css */
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.order-card {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: calc(30% - 20px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.order-card:hover {
+  transform: scale(1.02);
+}
+
+.order-card p {
+  margin: 5px 0;
+}

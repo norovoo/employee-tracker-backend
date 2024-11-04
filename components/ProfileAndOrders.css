@@ -1,0 +1,44 @@
+/* ProfileAndOrders.css */
+.profile-orders-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.profile-section, .orders-section {
+  width: 45%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.profile-section h2, .orders-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.order-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-list li:last-child {
+  border-bottom: none;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

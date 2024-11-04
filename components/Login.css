@@ -1,0 +1,41 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-input {
+  width: 100%; /* or a specific width like 300px */
+  max-width: 400px; /* Match this with the logo width */
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login-logo {
+  width: 100%; /* Set it to match input width */
+  max-width: 400px; /* Same as input field */
+  margin-bottom: 20px; /* Add space below the logo */
+}
+
+.login-button {
+  width: 100%; /* Match input width */
+  max-width: 400px;
+  padding: 10px;
+  background-color: #6200ee;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Match input width */
+  max-width: 400px;
+}
